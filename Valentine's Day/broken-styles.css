@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: goose;
+    src: url(./fonts/Cocogoose-Pro-Regular-trial.ttf);
+}
+body {
+    background-color: lightpink;
+    margin: 0;
+}
+
+.parent-div {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#cat {
+    width: 185px;
+    border-radius: 2px;
+}
+
+p {
+    font-family: goose;
+    color: white;
+}
